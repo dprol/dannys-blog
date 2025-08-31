@@ -1,5 +1,5 @@
-# Carol's Blog
+# Danny's Blog
 
 Hey there! 👋🏼
 
-This is the repo for my personal site https://carol.gg.
+This is the repo for my blog!
