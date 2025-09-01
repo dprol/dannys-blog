@@ -1,7 +1,7 @@
 ---
 import { type CollectionEntry } from "astro:content";
-import MyHCard from "../components/MyHCard.astro";
-import { getDateString } from "../utils/date";
+import MyHCard from "@components/MyHCard.astro";
+import { getDateString } from "@utils/date";
 const { posts } = Astro.props;
 
 type Post = CollectionEntry<"posts">;

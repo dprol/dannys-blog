@@ -1,0 +1,15 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { getCollection } from "astro:content";
+import PostList from "../../components/PostList.astro";
+
+const allPosts = await getCollection("posts");
+
+const pageTitle = "Daniel Prol Blog";
+const pageSubtitle = "Posts about programming, education and more";
+---
+
+<BaseLayout pageTitle={pageTitle} pageSubtitle={pageSubtitle}>
+  <h1>Posts</h1>
+  <PostList posts={allPosts} />
+</BaseLayout>
