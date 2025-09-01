@@ -1,14 +1,5 @@
 ---
-import BaseLayout from "@layouts/BaseLayout.astro";
-import { Image } from "astro:assets";
-import desk from "@images/uses/desk.jpg";
-import wasd from "@images/uses/wasd.jpg";
-import ergodox from "@images/uses/ergodox.jpg";
-import tofu from "@images/uses/tofu.jpg";
-import popkeys from "@images/uses/logi-keeb.png";
-import keychron from "@images/uses/keychron.png";
-import vscode from "@images/uses/vscode.png";
-import warp from "@images/uses/warp.png";
+import BaseLayout from "../layouts/BaseLayout.astro";
 
 const pageTitle = "Uses";
 const pageSubtitle = "My current setup and the tools I use daily.";
@@ -17,446 +8,81 @@ const pageSubtitle = "My current setup and the tools I use daily.";
 <BaseLayout pageTitle={pageTitle} pageSubtitle={pageSubtitle}>
   <h1>{pageTitle}</h1>
 
-  <p>This is what my current setup looks like:</p>
+  <p>This is my current tech setup for development, research, and content creation:</p>
 
-  <Image
-    src={desk}
-    alt="My desk, a bamboo top with a 27 inch monitor, and a laptop on a white laptop stand. You can also see on the desk a notepad, a pink pencil cup, a stream deck, a wireless phone charger, a coffee mug on top of a yellow coaster. Attached to the desk are a big rectangular keylight and a microphone on a boom arm. "
-    widths={[600, 900]}
-    sizes="(max-width: 600px) 600px, 900px"
-  />
-
-  <p>
-    It's a bit bland, to be honest, but I'm looking to buy a house soon so I'm
-    hoping to get a bit more creative with my workspace once I've moved.
-  </p>
-
-  <h2>🖥 Hardware</h2>
-  <p>
-    My chair is a <a
-      href="https://www.hermanmiller.com/en_gb/products/seating/office-chairs/aeron-chairs/"
-      >Herman Miller Aeron</a
-    > and my desk is a <a
-      href="https://www.fully.com/en-gb/jarvis-adjustable-height-desk-bamboo.html"
-      >Fully Jarvis Bamboo Standing Desk</a
-    >. Getting a standing desk after a year of working remotely was an absolute
-    game changer, I'm so happy with it! I also have an <a
-      href="https://www.fully.com/accessories/standing-desk-mats/muvmat-by-aeris.html"
-      >anti-fatigue mat</a
-    > that I got with my desk and it really helps me stand for longer 🧍‍♀️
-  </p>
-
-  <p>
-    I spend most of my time on my <a
-      href="https://www.johnlewis.com/2021-apple-macbook-pro-16-inch-m1-max-processor-32gb-ram-1tb-ssd/p5828283"
-      >2021 16" MacBook Pro</a
-    >. I generally use it open and my current monitor stand is a wooden one from <a
-      href="https://cottonon.com/UK/typo-home/">Typo</a
-    >. I've now ditched the superultrawide lifestyle, and my current monitor is
-    an <a
-      href="https://www.johnlewis.com/apple-studio-display-with-tilt-height-adjustable-stand-standard-glass-27-inch-5k-retina-display-silver/p6145616"
-      >Apple Studio Display</a
-    >.
-  </p>
-
-  <p>As it turns out I have a bunch of accessories 😅</p>
-
-  <p>
-    For pointing, I tend to switch between an <a
-      href="https://www.apple.com/uk/shop/product/MJ2R2Z/A/magic-trackpad-2-silver"
-      >Apple Magic Trackpad 2</a
-    > and a <a
-      href="https://www.logitech.com/en-gb/products/mice/mx-master-3-mac-wireless-mouse.html"
-      >Logitech MX Master 3 for Mac</a
-    > cause it helps keep my RSI in check.
-  </p>
-
-  <p>
-    For calls, I'm using my monitor's built in camera (despite the 🥔 quality)
-    and I have a <a href="https://www.elgato.com/en/key-light"
-      >Elgato Key Light</a
-    > to help with lighting. Audio wise I use my <a
-      href="https://www.johnlewis.com/sony-wh-1000xm4-noise-cancelling-wireless-bluetooth-nfc-high-resolution-audio-over-ear-headphones-with-mic-remote/midnight-blue/p5100480"
-    >
-      Sony WH-1000XM4
-    </a> and an <a href="https://www.elgato.com/en/wave-3">Elgato Wave 3</a>.
-  </p>
-
-  <p>
-    I used to run <a href="https://www.technottingham.com">Tech Nottingham</a> online
-    events from here, so I have an <a
-      href="https://www.elgato.com/en/stream-deck">Elgato StreamDeck</a
-    > and an <a href="https://www.elgato.com/en/green-screen"
-      >Elgato Collapsible Green Screen</a
-    >; they're super helpful for that kind of thing.
-  </p>
-
-  <p>
-    I have a couple more bits and bobs on my desk, like a <a
-      href="https://www.belkin.com/uk/magsafe-magnetic-accessories/magsafe/boost-charge-pro-2-in-1-wireless-charger-stand-with-magsafe-15w/p/p-wiz010/"
-      >wireless charger</a
-    >, a <a
-      href="https://www.etsy.com/uk/listing/872177169/rotatable-pen-holder-funny-pen-holder?ref=yr_purchases"
-      >rotating pen cup</a
-    > and a cute <a
-      href="https://www.etsy.com/uk/listing/993496645/terrazzo-coasters-pastel-confetti-switch"
-      >pastel terrazzo coaster</a
-    >.
-  </p>
-
-  <p>
-    As for portable stuff, I have an <a
-      href="https://www.johnlewis.com/apple-iphone-13-pro-max-ios-6-7-inch-5g-sim-free-128gb/p5756469"
-      >iPhone 13 Pro Max</a
-    >,
-    <a
-      href="https://www.johnlewis.com/2022-apple-airpods-pro-2nd-generation-with-magsafe-charging-case/p6345566"
-      >2nd Gen Airpods Pro</a
-    >, an <a href="https://www.apple.com/uk/apple-watch-series-6/"
-      >Apple Watch Series 6</a
-    >, and an <a href="https://www.apple.com/uk/shop/buy-ipad/ipad-pro"
-      >12.9" M1 iPad Pro</a
-    > which I love ✨
-  </p>
-
-  <h2>⌨️ Keyboards</h2>
-  <p>
-    I got my first mechanical keyboard a couple of years ago, and I just fell in
-    love with them 💛
-  </p>
-  <p>Here's some deets on the ones I have so far 👀</p>
-
-  <h3>WASD v3</h3>
+  <h2>💻 Hardware</h2>
+  
+  <h3>Laptops</h3>
   <ul>
-    <li>
-      Board: <a
-        href="https://www.wasdkeyboards.com/wasd-v3-88-key-iso-custom-mechanical-keyboard.html"
-        >WASD v3</a
-      >
-    </li>
-    <li>
-      Switches: <a href="https://www.cherrymx.de/en/mx-original/mx-clear.html"
-        >Cherry MX Clear</a
-      >
-    </li>
-    <li>Cable: Rose Pink Sleeved (ordered with the keyboard)</li>
-    <li>
-      Keycaps: I made the layout myself, you can <a
-        href="/baby-keyboard.svg"
-        download>get it here.</a
-      >
-    </li>
-  </ul>
-  <p><em>Note: Some of the letters have started to rub off.</em></p>
-
-  <Image
-    src={wasd}
-    alt="A white mechanical keyboard, with white, pink, and dark grey keycaps. The font on the keycaps is curly and italic. A bunch of the keys have space themed icons."
-    widths={[600, 900]}
-    sizes="(max-width: 600px) 600px, 900px"
-  />
-
-  <h3>Ergodox EZ</h3>
-  <ul>
-    <li>Board: <a href="https://ergodox-ez.com/">ErgoDox EZ</a></li>
-    <li>
-      Switches: <del
-        ><a
-          href="https://mechbox.co.uk/products/kailh-speed-copper-switch?variant=11093261090858"
-          >Kaihl Copper</a
-        ></del
-      >
-      <a href="https://www.keycrox.co.uk/product/banana-split-switches"
-        >Banana Splits</a
-      >
-    </li>
-    <li>
-      Cable: <a href="https://clarkkable.com/"
-        >The Curled One (Cream Fuchsia Diamonds) - Clark Kable</a
-      >
-    </li>
-    <li>Keycaps: <a href="https://astrolokeys.com/">Astrolokeys</a></li>
+    <li><strong>ThinkPad X1 Yoga</strong> - Windows machine for compatibility testing and Microsoft ecosystem work</li>
+    <li><strong>ASUS Vivobook Go 15 E1504FA</strong> - AMD Ryzen 5 7520U, 16GB RAM, 512GB SSD, 15.6" display running Linux for development</li>
+    <li><strong>MacBook Pro M2</strong> - 14-inch, 16GB RAM (2023) - Primary machine for development and content creation</li>
   </ul>
 
-  <Image
-    src={ergodox}
-    alt="A white mechanical keyboard, split in two, with white, pink, yellow and purple keycaps in an astrological theme."
-    widths={[600, 900]}
-    sizes="(max-width: 600px) 600px, 900px"
-  />
-
-  <h3>DZ60RGB</h3>
+  <h3>Peripherals</h3>
   <ul>
-    <li>
-      Case: <a
-        href="https://kbdfans.com/collections/60-layout-case/products/tofu-acrylic-frosted-60-case"
-        >Tofu Frosted Acrylic 60%</a
-      >
-    </li>
-    <li>
-      Plate: <a href="https://kbdfans.com/products/dz60-cnc-aluminum-plate"
-        >DZ60 CNC Aluminium Plate</a
-      >
-    </li>
-    <li>
-      Stabs: <a
-        href="https://kbdfans.com/products/cherry-original-pcb-stabilizers"
-        >Cherry PCB Stabilisers</a
-      >
-    </li>
-    <li>
-      Switches: <a
-        href="https://kbdfans.com/products/switch-68-cherry-gateron-zealio-2?variant=33959243088011"
-        >Kailh Box Navy</a
-      >
-    </li>
-    <li>
-      PCB: <a
-        href="https://kbdfans.com/products/dz60rgb-hot-swap-custom-keyboard-pcb"
-        >DZ60RGB v2 Hot Swap PCB</a
-      >
-    </li>
-    <li>
-      Keycaps: <a
-        href="https://www.millennialengineers.com/products/rainbow-side-printed-keycaps"
-        >Rainbow Side Printed Keycaps</a
-      >
-    </li>
+    <li><strong>Keyboard:</strong> <a href="https://www.logitech.com/en-us/products/keyboards/mx-keys-mini.html">Logitech MX Keys Mini</a> - Compact wireless keyboard</li>
+    <li><strong>Mouse:</strong> <a href="https://www.logitech.com/en-us/products/mice/m310-wireless-mouse.html">Logitech M310</a> - Simple wireless mouse</li>
+    <li><strong>Monitor:</strong> <a href="https://www.benq.com/en-us/monitor/programmer/rd280u.html">BenQ RD280U</a> - 28.2" 4K+ HDR Programming Monitor with excellent color accuracy</li>
   </ul>
-  <p>
-    <em
-      >Note: The keycaps didn't perfectly match the PCB layout, and because of
-      their slanted profile, it was difficult to use them in different places.
-      In future, I'd probably either try to match the layouts or get a DSA
-      profile keycap set, so they're easier to move around.</em
-    >
-  </p>
 
-  <Image
-    src={tofu}
-    alt="A compact 60% mechanical keyboard, with a transparent acrylic case, and rainbow side printed keycaps."
-    widths={[600, 900]}
-    sizes="(max-width: 600px) 600px, 900px"
-  />
-
-  <h3>Logitech POP Keys</h3>
+  <h3>Audio Setup</h3>
   <ul>
-    <li>
-      Board: <a
-        href="https://www.logitech.com/en-gb/products/keyboards/pop-keys-wireless-mechanical.html"
-        >Logitech POP Keys</a
-      >
+    <li><strong>Microphone:</strong> <a href="https://heilsound.com/products/pr-40">Heil PR40</a> - Dynamic microphone for recording</li>
+    <li><strong>Audio Interface:</strong> <a href="https://focusrite.com/scarlett/scarlett-solo">Focusrite Scarlett Solo</a> - USB audio interface</li>
+    <li><strong>Boom Arm:</strong> <a href="https://heilsound.com/products/pl-2t">Heil PL-2T</a> - Overhead broadcast boom</li>
+    <li><strong>Headphones:</strong>
+      <ul>
+        <li><a href="https://www.apple.com/airpods-pro/">AirPods Pro</a> - For calls and mobile use</li>
+        <li><strong>JBL Quantum 100M2</strong> - Gaming and casual listening</li>
+        <li><strong>Audio-Technica ATH-M50x</strong> - Professional monitoring and music production</li>
+      </ul>
     </li>
   </ul>
 
-  <Image
-    src={popkeys}
-    alt="A 60% wireless keyboard with round keycaps. The board is mint green and lilac, and the keys are white and yellow."
-    widths={[600, 900]}
-    sizes="(max-width: 600px) 600px, 900px"
-  />
-
-  <p>
-    <em
-      >Note: this is my first off the shelf mechanical keyboard and while it's
-      not quite as nice as my other keyboards, the convenience of the multi
-      channel Bluetooth is top tier.</em
-    >
-  </p>
-
-  <h3>Keychron K8</h3>
-  <p>
-    I got this one from work and it's a great keyboard! It's got multi channel
-    bluetooth and pretty nice backlighting, I've been using it quite a lot.
-  </p>
+  <h3>Video</h3>
   <ul>
-    <li>
-      Board: <a
-        href="https://www.keychron.com/products/keychron-k8-wireless-mechanical-keyboard-uk-iso-layout?variant=32246756409433"
-        >Keychron K8</a
-      >
-    </li>
-    <li>
-      Switches: <a
-        href="https://kbdfans.com/products/switch-68-cherry-gateron-zealio-2?variant=33959242072203"
-        >Gateron Brown</a
-      >
-    </li>
+    <li><strong>Webcam:</strong> <a href="https://www.insta360.com/product/insta360-link">Insta360 Link 2C</a> - 4K webcam with AI tracking for video calls and content creation</li>
   </ul>
-
-  <Image
-    src={keychron}
-    alt="A tenkeyless wireless keyboard with dark grey keycaps, except for the escape key which is orange. The board has RGB backlighting, which is glinting different colours under each key."
-    widths={[600, 900]}
-    sizes="(max-width: 600px) 600px, 900px"
-  />
 
   <h2>💾 Software</h2>
-  &nbsp;
-  <h3>Editor</h3>
-
-  <Image
-    src={vscode}
-    alt="A screenshot of VSCode, the theme is purple with yellow, pink and red fonts in places. The font is a modern looking monospace."
-    widths={[600, 900]}
-    sizes="(max-width: 600px) 600px, 900px"
-  />
-
+  
+  <h3>Development Environment</h3>
   <p>
-    I use <a href="https://code.visualstudio.com/">VS Code</a> for <strong
-      >everything</strong
-    >! My current theme is <a
-      href="https://marketplace.visualstudio.com/items?itemName=cybersamurai.midnight-purple-2077"
-      >Midnight Purple 2077</a
-    > and the font is <a href="https://philpl.gumroad.com/l/dank-mono"
-      >Dank Mono</a
-    >. I have a bunch of extensions, these are my faves:
+    I use <a href="https://code.visualstudio.com/">VS Code</a> as my primary editor across all platforms. My setup includes:
   </p>
-
   <ul>
-    <li>
-      <a
-        href="https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow"
-        >Indent rainbow</a
-      >: makes your indents pretty, and more importantly, highlights when your
-      indent level isn't quite right.
-    </li>
-    <li>
-      <a
-        href="https://marketplace.visualstudio.com/items?itemName=webhint.vscode-webhint"
-        >WebHint</a
-      > + <a
-        href="https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens"
-        >Error Lens</a
-      >: a killer combo that gives you instant feedback on the web code you
-      write.
-    </li>
-    <li>
-      <a
-        href="https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens"
-        >GitLens</a
-      >: super useful to get context on when the line was last changed; the
-      commit message helps understand the intent and the name helps you figure
-      out who to ask about it 🕵🏼‍♀️
-    </li>
-    <li>
-      <a
-        href="https://marketplace.visualstudio.com/items?itemName=nhoizey.gremlins"
-        >Gremlins tracker</a
-      >: this is useful to find "non standard" characters when you're debugging
-      a weird issue.
-    </li>
-    <li>
-      <a
-        href="https://marketplace.visualstudio.com/items?itemName=kamikillerto.vscode-colorize"
-      >
-        Colorize</a
-      >: this extension shows the colour of the hex / rgb code you're using
-      directly on the file.
-    </li>
-    <li>
-      <a
-        href="https://marketplace.visualstudio.com/items?itemName=Cardinal90.multi-cursor-case-preserve"
-        >Multiple cursor case preserve</a
-      >: I use Cmd + D a lot to replace words / variables, and this extension
-      lets me do that respecting the case of each instance.
-    </li>
+    <li><strong>Theme:</strong> One that provides good contrast and reduces eye strain during long coding sessions</li>
+    <li><strong>Extensions:</strong> Language-specific tools, Git integration, and productivity enhancers</li>
   </ul>
 
-  <h3>Terminal</h3>
-
-  <Image
-    src={warp}
-    alt="A screenshot of warp, the theme is dark blue, and you can see some ascii art of oh my zsh."
-    widths={[600, 900]}
-    sizes="(max-width: 600px) 600px, 900px"
-  />
-
+  <h3>Terminal & Shell</h3>
   <p>
-    I use the integrated terminal on VSCode most of the time, but when I'm not
-    doing repo specific stuff, I use <a href="https://www.warp.dev/">Warp</a>.
+    I use ZSH with <a href="https://ohmyz.sh/">Oh My Zsh</a> for shell configuration, with plugins for:
   </p>
-
-  <p>
-    For my shell I use ZSH with <a href="https://ohmyz.sh/">Oh My Zsh</a>, as it
-    has a bunch of plugins and useful aliases out of the box.
-  </p>
-
-  <p>
-    I try to keep it light on the plugins since they can slow down startup a
-    bunch, but I find these two really helpful:
-  </p>
-
   <ul>
-    <li>
-      <a href="https://github.com/zsh-users/zsh-syntax-highlighting"
-        >ZSH Syntax Highlighting</a
-      >
-    </li>
-    <li>
-      <a href="https://github.com/zsh-users/zsh-autosuggestions"
-        >ZSH Autosuggestions</a
-      >
-    </li>
+    <li>Syntax highlighting</li>
+    <li>Auto-suggestions</li>
+    <li>Git integration</li>
   </ul>
 
-  <p>I also have a few terminal based apps I really rate:</p>
+  <h3>Productivity Apps</h3>
   <ul>
-    <li>
-      <a href="https://github.com/BurntSushi/ripgrep">ripgrep</a>: great search
-      tool, it's fast, primarily uses regex and ignores hidden and git ignored
-      files.
-    </li>
-    <li>
-      <a href="https://github.com/sharkdp/bat">bat</a>: it's like cat but with
-      syntax highlighting and line numbers.
-    </li>
-    <li>
-      <a href="https://jqlang.github.io/jq/">jq</a>: now that I've been doing a
-      bit more backend work, this has been great to filter and wrangle json
-      data. If you do use it, <a href="https://jqplay.org/#">the playground</a> is
-      super useful!
-    </li>
+    <li><strong>Note-taking:</strong> For research and documentation</li>
+    <li><strong>Task Management:</strong> For project organization</li>
+    <li><strong>Communication:</strong> Slack, Discord, and email clients</li>
   </ul>
 
-  <h3>Apps</h3>
-  <p>
-    There's a bunch of apps I use regularly, but the ones I always install first
-    in a fresh machine are <a href="https://www.alfredapp.com/">Alfred</a>, <a
-      href="https://magnet.crowdcafe.com">Magnet</a
-    > and <a href="https://handmirror.app/">Hand Mirror</a>.
-  </p>
-
-  <p>
-    I write things in <a href="https://obsidian.md/">Obsidian</a> and I organise
-    my life using <a href="https://culturedcode.com/things/">Things</a>.
-  </p>
-
-  <p>
-    And here are a few apps that I use less often, but are really good at what
-    they do:
-  </p>
-
+  <h2>🎯 Use Cases</h2>
+  <p>This setup supports:</p>
   <ul>
-    <li>
-      <a href="https://apps.apple.com/us/app/amphetamine/id937984704?mt=12"
-        >Amphetamine</a
-      >
-    </li>
-    <li>
-      <a href="https://www.postman.com/">Postman</a>
-    </li>
-    <li>
-      <a href="https://www.charlesproxy.com/">Charles</a>
-    </li>
-    <li><a href="https://matthewpalmer.net/rocket/">Rocket</a></li>
-    <li><a href="https://software.charliemonroe.net/downie/">Downie</a></li>
-    <li>
-      <a href="https://software.charliemonroe.net/permute/">Permute</a>
-    </li>
-    <li>
-      <a href="https://sindresorhus.com/aiko">Aiko</a>
-    </li>
-    <li><a href="https://freemacsoft.net/appcleaner/">AppCleaner</a></li>
+    <li><strong>Software Development:</strong> Cross-platform development and testing</li>
+    <li><strong>Research & Writing:</strong> Academic research and blog writing</li>
+    <li><strong>Content Creation:</strong> Recording talks, tutorials, and conference presentations</li>
+    <li><strong>Video Calls:</strong> Teaching, meetings, and virtual presentations</li>
   </ul>
+
+  <p>
+    The multi-platform approach allows me to work with different operating systems and test compatibility across environments, while the audio setup ensures professional quality for any recorded content or calls.
+  </p>
 </BaseLayout>
