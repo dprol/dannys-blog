@@ -1,7 +1,7 @@
 ---
 import { type CollectionEntry } from "astro:content";
-import MyHCard from "@components/MyHCard.astro";
-import { getDateString } from "@utils/date";
+import MyHCard from "../components/MyHCard.astro";
+import { getDateString } from "../utils/date";
 const { posts } = Astro.props;
 
 type Post = CollectionEntry<"posts">;
@@ -29,7 +29,7 @@ type Post = CollectionEntry<"posts">;
               </span>
               <p class="p-summary body-small">{post.data.subtitle}</p>
             </div>
-            <a class="u-url" href={`/blog/${post.slug}`}>
+            <a class="u-url" href={`/posts/${post.slug}`}>
               Read the post{" "}
             </a>
           </div>
