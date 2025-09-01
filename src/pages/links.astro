@@ -1,795 +1,126 @@
 ---
-import BaseLayout from "@layouts/BaseLayout.astro";
+import BaseLayout from "../layouts/BaseLayout.astro";
 
-const pageTitle = "Links";
-const pageSubtitle = "Most of my bookmarks, somewhat organised.";
+const pageTitle = "Books";
+const pageSubtitle = "Some of my favorite books that have had the biggest impact on me";
 ---
 
 <BaseLayout pageTitle={pageTitle} pageSubtitle={pageSubtitle}>
-  <h1>{pageTitle}</h1>
-  <p>{pageSubtitle}</p>
+  <h1>The books I loved</h1>
+  <p>Here are some of the books I've read that have had the biggest impact on me and the way I see the world (in no particular order):</p>
 
-  <h2>Web tools</h2>
-  <h3>Accessibility</h3>
+  <h2>Technology & Programming</h2>
   <ul>
     <li>
-      <a
-        href="https://accessibilityinsights.io"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Accessibility Insights Extension
-      </a>
-    </li><li>
-      <a
-        href="https://dequeuniversity.com/screenreaders/nvda-keyboard-shortcuts"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        NVDA shortcuts
-      </a>
-    </li><li>
-      <a
-        href="https://dequeuniversity.com/screenreaders/voiceover-ios-shortcuts"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        VoiceOver shortcuts - iOS
-      </a>
-    </li><li>
-      <a
-        href="https://dequeuniversity.com/screenreaders/voiceover-keyboard-shortcuts"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        VoiceOver shortcuts - Mac
-      </a>
-    </li><li>
-      <a
-        href="https://chrispederick.com/work/web-developer/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Web Developer Extension
-      </a>
+      <a href="https://www.oreilly.com/library/view/designing-data-intensive-applications/9781491903063/" target="_blank" rel="noopener noreferrer">
+        <strong>Designing Data-Intensive Applications</strong>
+      </a> by Martin Kleppmann
     </li>
     <li>
-      <a
-        href="https://a11y-tools.com/bookmarklets/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        A11y audit bookmarklets
-      </a>
+      <a href="https://www.amazon.es/Introduction-Algorithms-Press-Thomas-Cormen/dp/0262033844" target="_blank" rel="noopener noreferrer">
+        <strong>Introduction to Algorithms</strong>
+      </a> by Cormen, Leiserson, Rivest, and Stein
+    </li>
+    <li>
+      <a href="https://www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/0984782850" target="_blank" rel="noopener noreferrer">
+        <strong>Cracking the Coding Interview</strong>
+      </a> by Gayle Laakmann McDowell
+    </li>
+    <li>
+      <a href="https://www.amazon.com/Creativity-Inc-Overcoming-Unseen-Inspiration/dp/0812993012" target="_blank" rel="noopener noreferrer">
+        <strong>Creativity, Inc.</strong>
+      </a> by Ed Catmull, Amy Wallace
     </li>
   </ul>
-  <h3>Typography</h3>
+
+  <h2>Business & Productivity</h2>
   <ul>
     <li>
-      <a
-        href="https://wakamaifondue.com/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Wakamai Fondue
-      </a>
-    </li><li>
-      <a href="https://fontjoy.com/" target="_blank" rel="noopener noreferrer">
-        Font Joy
-      </a>
-    </li><li>
-      <a
-        href="https://beastsofengland.co/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Beasts of england
-      </a>
-    </li><li>
-      <a
-        href="https://www.vj-type.com/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        VJ Type
-      </a>
-    </li><li>
-      <a
-        href="https://somepx.itch.io/pixel-font-tape"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Tape font
-      </a>
-    </li><li>
-      <a
-        href="https://www.typewolf.com/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Typewolf
-      </a>
+      <a href="https://growth.eladgil.com/" target="_blank" rel="noopener noreferrer">
+        <strong>High Growth Handbook</strong>
+      </a> by Elad Gil
     </li>
     <li>
-      <a
-        href="https://glyphsapp.com/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Glyphs app
-      </a>
+      <a href="https://www.amazon.com/Doesnt-Have-Be-Crazy-Work/dp/0062874780" target="_blank" rel="noopener noreferrer">
+        <strong>It Doesn't Have to Be Crazy at Work</strong>
+      </a> by Jason Fried, David Heinemeier Hansson
     </li>
     <li>
-      <a href="https://hottype.co/" target="_blank" rel="noopener noreferrer">
-        Hot Type
-      </a>
+      <a href="https://www.amazon.es/Deep-Work-Focused-Success-Distracted/dp/0349411905" target="_blank" rel="noopener noreferrer">
+        <strong>Deep Work: Rules For Focused Success In A Distracted World</strong>
+      </a> by Cal Newport
     </li>
   </ul>
-  <h3>Design</h3>
+
+  <h2>Education</h2>
   <ul>
     <li>
-      <a
-        href="https://grids.obys.agency/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Grids - Obys Agency
-      </a>
-    </li>
-    <li>
-      <a
-        href="https://www.designspells.com/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Design Spells
-      </a>
+      <a href="https://www.amazon.com/One-World-Schoolhouse-Education-Reimagined/dp/1455508381" target="_blank" rel="noopener noreferrer">
+        <strong>The One World Schoolhouse: Education Reimagined</strong>
+      </a> by Salman Khan
     </li>
   </ul>
-  <h3>Inspiration</h3>
+
+  <h2>Philosophy & Personal Growth</h2>
   <ul>
     <li>
-      <a
-        href="https://refero.design/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Refero
-      </a>
+      <a href="https://www.amazon.es/El-hombre-en-busca-sentido/dp/8425432022" target="_blank" rel="noopener noreferrer">
+        <strong>El Hombre en busca de Sentido</strong>
+      </a> by Viktor Emil Frankl
     </li>
     <li>
-      <a href="https://mobbin.com/" target="_blank" rel="noopener noreferrer">
-        Mobbin
-      </a>
+      <a href="https://www.amazon.es/Cabeza-coraz%C3%B3n-manos-transformaci%C3%B3n-personal-ebook/dp/B082Z9TN17" target="_blank" rel="noopener noreferrer">
+        <strong>Cabeza, corazón y manos: Un viaje de transformación personal</strong>
+      </a> by Álvaro González-Alorda
     </li>
     <li>
-      <a
-        href="https://www.footer.design/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Footer Design
-      </a>
+      <a href="https://www.amazon.es/Libro-Joven-Gente-Clase-Biblioteca/dp/8432145874" target="_blank" rel="noopener noreferrer">
+        <strong>El Libro Joven De La Gente Con Clase</strong>
+      </a> by Juan Narbona
     </li>
     <li>
-      <a
-        href="https://www.rebrand.gallery/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Rebrand Gallery
-      </a>
-    </li>
-    <li>
-      <a
-        href="https://www.deck.gallery/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Deck Gallery
-      </a>
-    </li>
-    <li>
-      <a
-        href="https://uk.pinterest.com/davedye/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Dave Dye's Pinterest boards
-      </a>
-    </li>
-    <li>
-      <a
-        href="https://coverjunkie.com"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Cover Junkie
-      </a>
-    </li>
-    <li>
-      <a
-        href="https://www.francobollimontilessini.com/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        francobollimontilessini
-      </a>
+      <a href="https://www.amazon.es/Sin-que-%C3%A9l-sepa-c%C3%B3mo/dp/B08CJQ6GS8/" target="_blank" rel="noopener noreferrer">
+        <strong>Sin que él sepa cómo: Crecer en libertad</strong>
+      </a> by D. Julio Diéguez
     </li>
   </ul>
-  <h3>Animation</h3>
+
+  <h2>Memoirs & Biographies</h2>
   <ul>
     <li>
-      <a
-        href="https://courses.nan.fyi/svg/00-svg-foundations"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Introduction to SVGs
-      </a>
+      <a href="https://www.amazon.es/MIGRANTE-guatemalteco-emprendedor-tecnol%C3%B3gico-testimonio/dp/1096708566" target="_blank" rel="noopener noreferrer">
+        <strong>Migrante</strong>
+      </a> by Marcos Antil
     </li>
     <li>
-      <a
-        href="https://motion.zajno.com/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        motion.ed
-      </a>
-    </li>
-    <li>
-      <a
-        href="https://madewithgsap.com/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Made with GSAP
-      </a>
-    </li>
-    <li>
-      <a href="https://jitter.video/" target="_blank" rel="noopener noreferrer">
-        Jitter
-      </a>
-    </li>
-    <li>
-      <a href="https://lordicon.com/" target="_blank" rel="noopener noreferrer">
-        Lordicon
-      </a>
-    </li>
-    <li>
-      <a
-        href="https://spacetypegenerator.com/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Space Type Generator
-      </a>
+      <a href="https://www.amazon.com/Educated-Memoir-Tara-Westover/dp/0399590501" target="_blank" rel="noopener noreferrer">
+        <strong>Educated</strong>
+      </a> by Tara Westover
     </li>
   </ul>
-  <h3>Images</h3>
+
+  <h2>Fiction & Literature</h2>
   <ul>
     <li>
-      <a href="https://public.work/" target="_blank" rel="noopener noreferrer">
-        Public Work
-      </a>
+      <a href="https://www.amazon.es/despertar-se%C3%B1orita-Autores-Espa%C3%B1oles-Iberoamericanos/dp/8408059874" target="_blank" rel="noopener noreferrer">
+        <strong>El despertar de la señorita Prim</strong>
+      </a> by Natalia Sanmartín
     </li>
   </ul>
-  <h3>Sounds</h3>
+
+  <h2>Spirituality & Religion</h2>
   <ul>
     <li>
-      <a
-        href="https://sound-effects.bbcrewind.co.uk/search"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        BBC Sound Effects
-      </a>
+      <a href="https://www.amazon.es/God-Nothing-Cardinal-Robert-Sarah/dp/1621640507" target="_blank" rel="noopener noreferrer">
+        <strong>God or Nothing: A Conversation on Faith</strong>
+      </a> by Cardinal Robert Sarah, Nicolas Diat
+    </li>
+    <li>
+      <a href="https://www.amazon.es/Jerusal%C3%A9n-santa-cautiva-coraz%C3%B3n-eternidad/dp/8499429866/" target="_blank" rel="noopener noreferrer">
+        <strong>Jerusalén, santa y cautiva: Desde el corazón de la Ciudad Vieja a la eternidad</strong>
+      </a> by Mikel Ayestaran
     </li>
   </ul>
-  <h2>Cool websites</h2>
-  <ul>
-    <li>
-      <a
-        href="https://momg.neocities.org/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Museum of Modern GIFs
-      </a>
-    </li>
-    <li>
-      <a
-        href="https://wikenigma.org.uk/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Wikenigma
-      </a>
-    </li>
-    <li>
-      <a href="https://earth.fm/" target="_blank" rel="noopener noreferrer">
-        Earth FM
-      </a>
-    </li>
-    <li>
-      <a
-        href="https://www.driveandlisten.net/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Drive and listen
-      </a>
-    </li>
-    <li>
-      <a
-        href="https://queeringthemap.com/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Queering the map
-      </a>
-    </li>
-    <li>
-      <a href="https://pudding.cool/" target="_blank" rel="noopener noreferrer">
-        The Pudding
-      </a>
-    </li>
-    <li>
-      <a href="https://radio.garden/" target="_blank" rel="noopener noreferrer">
-        Radio Garden
-      </a>
-    </li>
-    <li>
-      <a
-        href="https://window-swap.com/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Window Swap
-      </a>
-    </li>
-    <li>
-      <a
-        href="https://skyandtelescope.org/interactive-sky-chart/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Interactive sky chart
-      </a>
-    </li>
-    <li>
-      <a
-        href="https://radiooooo.com/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Radiooooo
-      </a>
-    </li>
-    <li>
-      <a href="https://sfpc.study/" target="_blank" rel="noopener noreferrer">
-        The School for Poetic Computation
-      </a>
-    </li>
-    <li>
-      <a
-        href="https://www.everysingleframe.com/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Every Single Frame
-      </a>
-    </li>
-    <li>
-      <a
-        href="https://infinitemac.org/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Infinite Mac
-      </a>
-    </li>
-    <li>
-      <a href="https://yarn.co/" target="_blank" rel="noopener noreferrer">
-        Yarn
-      </a>
-    </li>
-  </ul>
-  <h2>Recipes</h2>
-  <ul>
-    <li>
-      <a
-        href="https://cooking.nytimes.com/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        NYT Cooking
-      </a>
-    </li>
-    <li>
-      <a
-        href="https://www.saveur.com/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Saveur
-      </a>
-    </li>
-    <li>
-      <a
-        href="https://www.seriouseats.com/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Serious Eats
-      </a>
-    </li>
-    <li>
-      <a
-        href="https://cookieandkate.com/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Cookie and Kate
-      </a>
-    </li>
-    <li>
-      <a
-        href="https://ottolenghi.co.uk/recipes/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Ottolenghi
-      </a>
-    </li>
-    <li>
-      <a
-        href="https://meerasodha.com/recipes/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Meera Sodha
-      </a>
-    </li>
-  </ul>
-  <h2>Remote games</h2>
-  <ul>
-    <li>
-      <a
-        href="https://www.playbananagrams.com/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Bananagrams
-      </a>
-    </li><li>
-      <a
-        href="https://blocktanks.net/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Blocktanks
-      </a>
-    </li><li>
-      <a
-        href="https://en.boardgamearena.com/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Board game arena
-      </a>
-    </li><li>
-      <a href="https://cah.rocks/" target="_blank" rel="noopener noreferrer">
-        Cards against humanity
-      </a>
-    </li><li>
-      <a
-        href="https://codenames.game/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Codenames
-      </a>
-    </li><li>
-      <a
-        href="https://incoherency.co.uk/countdown/practice/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Countdown
-      </a>
-    </li><li>
-      <a
-        href="https://www.drawasaurus.org/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Drawasaurus
-      </a>
-    </li><li>
-      <a
-        href="https://jeopardylabs.com/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Jeopardy
-      </a>
-    </li><li>
-      <a
-        href="https://jigsawpuzzles.io/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Jigsaw
-      </a>
-    </li><li>
-      <a href="https://songl.io/" target="_blank" rel="noopener noreferrer">
-        Music quiz
-      </a>
-    </li><li>
-      <a
-        href="https://really.boring.website/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Scattergories
-      </a>
-    </li><li>
-      <a
-        href="https://garticphone.com/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Telephone
-      </a>
-    </li><li>
-      <a
-        href="https://www.thewikigame.com/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Wiki game
-      </a>
-    </li>
-  </ul>
-  <h2>Sewing patterns</h2>
-  <ul>
-    <li>
-      <a
-        href="https://www.birgittahelmersson.com/collections/pdf-sewing-patterns"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Birgitta Helmersson
-      </a>
-    </li><li>
-      <a
-        href="https://guthrie-ghani.co.uk/shop/patterns"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Guthrie &amp; Ghani
-      </a>
-    </li><li>
-      <a
-        href="https://www.stitchwitchpatterns.com/patterns-1"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Stitch Witch
-      </a>
-    </li><li>
-      <a
-        href="https://drapersdaughter.com/collections/sewing-patterns"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Draper's Daughter
-      </a>
-    </li><li>
-      <a
-        href="https://modernsewingco.com/collections/single-patterns"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Modern Sewing Co
-      </a>
-    </li><li>
-      <a
-        href="https://theassemblylineshop.com/collections/modern-minimalist-sewing-patterns"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        The Assembly Line
-      </a>
-    </li><li>
-      <a
-        href="https://grainlinestudio.com/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Grainline Studio
-      </a>
-    </li><li>
-      <a
-        href="https://fabrics-store.com/sewing-patterns"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Fabric store
-      </a>
-    </li><li>
-      <a
-        href="https://peppermintmag.com/sewing-school/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Peppermint magazine
-      </a>
-    </li><li>
-      <a
-        href="https://www.moodfabrics.com/blog/category/free-sewing-patterns/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Mood fabrics
-      </a>
-    </li>
-  </ul>
-  <h2>Shops I like</h2>
-  <ul>
-    <li>
-      <a
-        href="https://bambooclothing.co.uk/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        BAM
-      </a>
-    </li><li>
-      <a
-        href="https://coraandspink.com/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Cora + Spink
-      </a>
-    </li><li>
-      <a href="https://everpress.com" target="_blank" rel="noopener noreferrer">
-        Everpress
-      </a>
-    </li><li>
-      <a
-        href="https://finisterre.com"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Finisterre
-      </a>
-    </li><li>
-      <a href="https://howies.co.uk/" target="_blank" rel="noopener noreferrer">
-        Howies
-      </a>
-    </li><li>
-      <a
-        href="https://www.humphriesandbegg.co.uk/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Humphries &amp; Begg
-      </a>
-    </li><li>
-      <a
-        href="https://knowtheorigin.com/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Know the Origin
-      </a>
-    </li><li>
-      <a
-        href="https://www.lazyoaf.com"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Lazy Oaf
-      </a>
-    </li><li>
-      <a
-        href="https://lucyandyak.com/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Lucy and Yak
-      </a>
-    </li><li>
-      <a
-        href="https://www.miss-patisserie.com"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Miss Patisserie
-      </a>
-    </li><li>
-      <a href="https://nightire.com/" target="_blank" rel="noopener noreferrer">
-        Nightire
-      </a>
-    </li><li>
-      <a
-        href="https://rapanuiclothing.com/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Rapanui
-      </a>
-    </li><li>
-      <a
-        href="https://www.vivobarefoot.com/uk/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Vivo Barefoot
-      </a>
-    </li><li>
-      <a
-        href="https://www.sugarhillbrighton.com"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Sugarhill
-      </a>
-    </li><li>
-      <a
-        href="https://www.wearethought.com/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Thought
-      </a>
-    </li><li>
-      <a href="https://www.toa.st" target="_blank" rel="noopener noreferrer">
-        Toast
-      </a>
-    </li><li>
-      <a
-        href="https://www.giant-kitten.com/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Giant Kitten
-      </a>
-    </li><li>
-      <a
-        href="https://claricetudor.com/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Clarice Tudor
-      </a>
-    </li><li>
-      <a
-        href="https://www.theartfulpossum.com/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        The Artful Possum
-      </a>
-    </li><li>
-      <a href="https://dupe.com/" target="_blank" rel="noopener noreferrer">
-        Dupe
-      </a>
-    </li><li>
-      <a href="https://faircado.com/" target="_blank" rel="noopener noreferrer">
-        Faircado
-      </a>
-    </li><li>
-      <a
-        href="https://gmmrs.com/collections/jumpers"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        GMMRS
-      </a>
-    </li>
-  </ul>
+
+  <p>Each of these books has shaped my perspective on technology, personal growth, education, or life in general. I highly recommend any of them depending on your interests and current challenges.</p>
 </BaseLayout>
